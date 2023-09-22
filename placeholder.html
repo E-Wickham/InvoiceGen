@@ -1,0 +1,58 @@
+<!-- Personal Info-->
+<h1>Wickham Media Solutions Inc.</h1>
+<h4>Invoice #{{inv_num}}</h4>
+<div class="header-flex">
+    <div class="flex1">
+        <p>Eric Wickham</p>
+        <p>3-63 Bellevue Avenue</p>
+        <p>Toronto, ON M5T 2N6</p>
+        <p>Phone: (416) 278-4433</p>
+        <p>eric.wickham1@gmail.com</p>
+    </div>
+    <div class="flex-middle">
+        <h4 style="font-weight:700;">TO</h4>
+        <p>{{clientName}}</p>
+        <p>{{clientContact}}</p>
+        <p>{{clientEmail}}</p>
+    </div>
+    <div class="flex2">
+        <p>Date: {{date}} </p>
+        <p>For Services rendered</p>
+        <p>HST Number: 71 142 9746 RT0001</p>
+    </div>
+</div>
+
+<div class="snapshot-flex">
+    <div class="snapshot-head">
+        <div class="snapshot-item">From Date</div>
+        <div class="snapshot-item">To Date</div>
+        <div class="snapshot-item">Hours</div>
+        <div class="snapshot-item">Rate</div>
+        <div class="snapshot-item">Sub-Total</div>
+        <div class="snapshot-item">Total</div>
+    </div>
+    <div class="snapshot-body">
+        <div class="snapshot-item">{{from}}</div>
+        <div class="snapshot-item">{{until}}</div>
+        <div class="snapshot-item">{{hours}}</div>
+        <div class="snapshot-item">${{clientRate}} / h</div>
+        <div class="snapshot-item">${{total}}</div>
+        <div class="snapshot-item">${{hstTotal}}</div>
+    </div>
+</div>
+
+<div class="work-completed">
+    <h2>Work Completed</h2>
+    <div>
+        {{work}}
+    </div>
+</div>
+
+
+<div class="disclaimer">
+    Make all cheques payable to Wickham Media Solutions Inc.
+    Payment due on receipt.
+    <br>
+    If you have any questions concerning this invoice, contact Eric Wickham at eric.wickham1@gmail.com
+</div>
+

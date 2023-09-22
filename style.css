@@ -1,0 +1,71 @@
+body {
+    font-family: 'Lato';
+    padding: 1rem;
+}
+
+.header-flex h4 {
+    margin: 0.5rem 0;
+}
+.header-flex p {
+    margin: 0.25rem 0;
+}
+.header-flex {
+    display: flex;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+}
+
+.header-flex {
+    padding: 0.5rem;
+    border-top: 5px solid #12355b;
+    border-bottom: 5px solid #12355b;
+}
+
+.flex-middle {
+    flex: 2 2 auto;
+    -webkit-box-flex: 2 2 auto;
+    -webkit-flex: 2 2 auto;
+}
+
+.flex-row {
+    display: flex;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+.flex-item, .flex-item-b {
+    width: 10%;
+    padding: 1rem;
+}
+
+.flex-item-b.big, .flex-item.big {
+    width: 37.5%;
+}
+
+.flex-item-b {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.snapshot-head { 
+    color: white;
+    background-color: #12355b;
+    font-weight: 700;
+}
+.snapshot-head, .snapshot-body {
+    display: flex;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    padding: 1rem;
+    width: 100%;
+}
+
+.snapshot-item {
+    width: 15%;
+}
+
+.snapshot-flex {
+    margin: 1.5rem 0;
+}

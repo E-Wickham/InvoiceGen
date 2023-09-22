@@ -1,0 +1,20 @@
+﻿day,Hours,Description,CQAscending,Title,Project,
+01/16/2023,7.5,fixing all the spaces to display funds/plan to be consistent,CQ113821,Fund/Plans Display order not consistent,IATSE NBF,
+01/17/2023,7.5,cvs commit,CQ118559,Lockbox Exceptions - Check to be Returned,IATSE NBF,
+01/18/2023,3,changing the styling on the new jml popup,CQ118452,Header entry - contribution amount by fund screen ('Additional' button under the Action menu),IATSE NBF,
+01/18/2023,4.5,refactoring the code for the sort and filter functions to be reusable everywhere not just on one screen,CQ118469,Lockbox Transaction Screen Issues,IATSE NBF,
+01/23/2023,1,cvs commit,CQ117789,Correct styling for errors and warnings,IATSE NBF,
+01/23/2023,3,cvs commit,CQ118143,"""Not Input"" paint it red in Industry and Trust Acceptance/ Language",IATSE NBF,
+01/23/2023,1,cvs commit,CQ118299,Lockbox Exceptions - Expander for Multiple Checks,IATSE NBF,
+01/23/2023,1,cvs commit,CQ118356,UI Refresh - styling,CPAS v5.11,
+01/23/2023,1.5,cvs commit,CQ118469,Lockbox Transaction Screen Issues,IATSE NBF,
+01/24/2023,7.5,cvs commit,CQ118469,Lockbox Transaction Screen Issues,IATSE NBF,
+01/25/2023,7.5,additional issues with lockbox screen,CQ118469,Lockbox Transaction Screen Issues,IATSE NBF,
+01/26/2023,7.5,cvs commit,CQ118735,Manual Transaction - Blue Bar and Icon Missing,IATSE NBF,
+01/27/2023,7.5,cvs commit,CQ118687,Report Header entry: Fix 'Additional' popup screen's styling issues,IATSE NBF,
+01/30/2023,4,cvs commit,CQ118343,"Contract Entry/Maintenance: Contract status should say ""Pending"" instead of ""Inactive"" when contract is not activated",IATSE NBF,Eric Wickham
+01/30/2023,3.5,cvs commit,CQ118735,Manual Transaction - Blue Bar and Icon Missing,IATSE NBF,Eric Wickham
+01/31/2023,2,agile training and sprint review,-,"Internal Time (staff meetings,CPAS events,admin etc.)",-,Eric Wickham
+01/31/2023,1.5,change slickgrid colour,CQ118733,Global Layout for Grids,IATSE NBF,Eric Wickham
+01/31/2023,4,changing the front end validation process,CQ118760,"Contracts - Industry, Sub Type should be highlighted red",IATSE NBF,Eric Wickham
+,75,,,,,
