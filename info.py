@@ -11,30 +11,30 @@ hst = 1.13
 clients = [
     { 
       'name' : "Tech Won't Save Us",
-      'contact' : 'Paris Marx',
-      'email': 'paris@parismarx.com',
-      'rate' : 40.00,
+      'contact' : '',
+      'email': '',
+      'rate' : ,
       'tax' : gst
     },
     { 
       'name' : "The Hoser",
-      'contact' : 'Shannon Carranco',
-      'email': 'shannonellycarranco@gmail.com',
-      'rate' : 67.75,  #rate takes into account that im collecting 13% hst on the $57 USD
+      'contact' : '',
+      'email': '',
+      'rate' : 
       'tax' : hst
     },
     { 
       'name' : "Press Progress",
-      'contact' : 'Stephen Magusiak',
-      'email': 'smagusiak@pressprogress.ca',
+      'contact' : '',
+      'email': '',
       'rate' : 75.00,
       'tax' : hst
     },
     { 
       'name' : "Cited Media",
-      'contact' : 'Gordon Katic',
-      'email': 'gordon@citedmedia.ca',
-      'rate' : 39.00, #should be 34.50 to subtract hst which is being added in
+      'contact' : '',
+      'email': '',
+      'rate' : 
       'tax'  : hst
     }
 ]
