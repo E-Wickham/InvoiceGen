@@ -4,11 +4,11 @@ import mysql.connector
 def dbInput(clientName, invoiceDate, invoiceAmt, totalHours, rate, filename,inAmtPlusHST):
      # DB information to connect to localhost
         mydb = mysql.connector.connect(
-        host="localhost",
-        port="3306",
-        user="root",
-        password="root",
-        database ="homebank"
+        host="",
+        port="",
+        user="",
+        password="",
+        database =""
         )
         #get everything from the listing table
         mycursor = mydb.cursor()
